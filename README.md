@@ -10,7 +10,7 @@ Kopumā, ja visās trīs vietnēs ir kursi, kas atbilst lietotāja ievadītajai 
 
 ## Izmantotās bibliotēkas
 1) **Selenium**:
-   Tiek izmantota, lai mijiedarboties ar Coursera, MIT OpenCourseWare un edX vietnēm. WebDriver Chrome izmanto pārlūkprogrammas vadīšanai.
+   Tiek izmantota, lai mijiedarboties ar Coursera, MIT OpenCourseWare un edX vietnēm, ļauj noklikšķināt uz pogām un ievadīt tekstu laukos. WebDriver Chrome izmanto pārlūkprogrammas vadīšanai. Visas pogas un lauki tiek meklēti, izmantojot ID, klases vai citus atbilstošās lapas HTML koda atribūtus
 
 2) **BeautifulSoup**:
    Tiek izmantota, lai analizētu saņemto tīmekļa lapu HTML kodu un iegūtu nepieciešamo informāciju.
@@ -36,3 +36,5 @@ Koda izpildes process sastāv no vairākiem posmiem. Darbs ar katru vietni ir ap
 Atšķirība ir tāda, ka informācija no šīm vietnēm tiek ierakstīta teksta failā nevis ar “w” metodi, bet ar metodi “a”, lai nepazaudētu ierakstus no iepriekšējām vietnēm.
 
 5) Pēc darba ar pārlūkprogrammu un visas saņemtās informācijas ierakstīšanas teksta failā programma aizver pārlūkprogrammu un pabeidz darbu
+
+Pēc koda atkārtotas palaišanas visa vecā informācija no teksta faila tiek aizstāta ar jaunu un aktuālo informāciju.
