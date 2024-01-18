@@ -7,4 +7,18 @@
 2) ocw.mit.edu
 3) edx.org
 ```
+Kopumā, ja visās trīs vietnēs ir kursi, kas atbilst lietotāja ievadītajai tēmai, programma parādīs 11 dažādus rezultātus. 4 rezultāti būs no "Coursera" vietnes, vēl 4 no "ocw.mit.edu" vietnes, un vēl 3 no "edx.org"
 
+## Izmantotās bibliotēkas
+1) **Selenium**:
+   Tiek izmantota, lai mijiedarboties ar Coursera, MIT OpenCourseWare un edX vietnēm. WebDriver Chrome izmanto pārlūkprogrammas vadīšanai.
+
+2) **BeautifulSoup**:
+   Tiek izmantota, lai analizētu saņemto tīmekļa lapu HTML kodu un iegūtu nepieciešamo informāciju.
+
+3) **urllib.parse**:
+   urljoin tiek izmanta, lai no dažādiem tās komponentiem izveidotu pilnīgu saiti uz vietni.
+
+4) **time**:
+   time.sleep tiek izmanta, lai izveidotu pauzes starp darbībām, lai pārlūkprogrammai un lapām būtu laiks ielādēties.
+   
