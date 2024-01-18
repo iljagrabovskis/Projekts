@@ -24,7 +24,7 @@ Kopumā, ja visās trīs vietnēs ir kursi, kas atbilst lietotāja ievadītajai 
 Jāpiebilst, ka kodam ir pievienots arī viens teksta dokuments library.txt, kurā aprakstītas visas izmantotās bibliotēkas. Tas nozīmē, ka jebkuram lietotājam, kuram dažas bibliotēkas nav instalētas, ir iespējams ievadīt vienu komandu "pip install -r library.txt" pirms koda palaišanas, nevis manuāli instalēt katru bibliotēku.
 
 ## Programmatūras izmantošanas metodes
-Koda izpildes process sastāv no vairākiem posmiem. Darbs ar katru vietni ir aprakstīts kā atsevišķa funkcija, kas tiek izsaukta koda beigās, lai programma izskatītos strukturēta un saprotama.
+Koda izpildes process sastāv no vairākiem posmiem. Darbs ar katru vietni ir aprakstīts kā atsevišķa funkcija, kas tiek izsaukta koda beigās, lai programma izskatītos strukturēta un saprotama. Ir vērts atzīmēt, ka kods tika izstrādāts Visual Studio Code izstrādes vidē, jo GitHub vietnes nodrošinātajā codespace nav iespējams izmantot Selenium bibliotēku, jo tā nevar atvērt citu pārlūkprogrammas. Lai precīzi pārbaudītu koda funkcionalitāti, tas jāpalaiž kādā programmām, kas nodrošina izstrādes vidi.
 
 1) Pirmkārt, kods importē visas nepieciešamās bibliotēkas
 
