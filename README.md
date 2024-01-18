@@ -24,4 +24,15 @@ Kopumā, ja visās trīs vietnēs ir kursi, kas atbilst lietotāja ievadītajai 
 Jāpiebilst, ka kodam ir pievienots arī viens teksta dokuments library.txt, kurā aprakstītas visas izmantotās bibliotēkas. Tas nozīmē, ka jebkuram lietotājam, kuram dažas bibliotēkas nav instalētas, ir iespējams ievadīt vienu komandu "pip install -r library.txt" pirms koda palaišanas, nevis manuāli instalēt katru bibliotēku.
 
 ## Programmatūras izmantošanas metodes
+Koda izpildes process sastāv no vairākiem posmiem. Darbs ar katru vietni ir aprakstīts kā atsevišķa funkcija, kas tiek izsaukta koda beigās, lai programma izskatītos strukturēta un saprotama.
 
+1) Pirmkārt, kods importē visas nepieciešamās bibliotēkas
+
+2) Pēc tam lietotājs ievada interesējošo tēmu (piemēram Computer Science)
+
+3) Talāk kods konfigurē Coursera pārlūkprogrammas Chrome iestatījumus, atver Coursera vietni, akceptē sīkdatņes (noklikšķina uz pogas "Piekrist"), meklēšanas laukā ievada tēmu, kuru pierakstīja lietotajs programmas sakumā, gaida 6 sekundes, līdz tiek ielādēti rezultāti. Izmantojot BeautifulSoup tiek atrasts datu bloks ar kursiem. Nepieciešama informācija tiek izņemta no datu bloka, saglabāta sarakstā un pierakstītā jaunajā teksta failā.
+
+4) Atkārto līdzīgas darbības ar MIT OpenCourseWare un edX vietnem. 
+Atšķirība ir tāda, ka informācija no šīm vietnēm tiek ierakstīta teksta failā nevis ar “w” metodi, bet ar metodi “a”, lai nepazaudētu ierakstus no iepriekšējām vietnēm.
+
+5) Pēc darba ar pārlūkprogrammu un visas saņemtās informācijas ierakstīšanas teksta failā programma aizver pārlūkprogrammu un pabeidz darbu
