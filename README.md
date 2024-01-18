@@ -1,4 +1,3 @@
-# Projekta darbs
 ## Projekta uzdevums
 Šī projekta mērķis ir automātiski izpētīt un meklēt nepieciešamo informāciju no 3 vietnēm, kas nodrošina iespēju apmeklēt tiešsaistes kursus par lietotāju interesējošām tēmām. Pēc koda izpildes lietotājs saņem teksta dokumentu, kurā ir aprakstīta pamatinformācija par kursu (ieskaitot saiti uz vietni). Koda palaišanas brīdī lietotājam ir iespēja ievadīt kursa nosaukumu angļu valodā (piemēram, Finance, Information Technologies vai kaut kas cits), un programma automātiski meklēs kursus.
 Šajā projektā izmantotās vietnes:
@@ -21,4 +20,8 @@ Kopumā, ja visās trīs vietnēs ir kursi, kas atbilst lietotāja ievadītajai 
 
 4) **time**:
    time.sleep tiek izmanta, lai izveidotu pauzes starp darbībām, lai pārlūkprogrammai un lapām būtu laiks ielādēties.
-   
+
+Jāpiebilst, ka kodam ir pievienots arī viens teksta dokuments library.txt, kurā aprakstītas visas izmantotās bibliotēkas. Tas nozīmē, ka jebkuram lietotājam, kuram dažas bibliotēkas nav instalētas, ir iespējams ievadīt vienu komandu "pip install -r library.txt" pirms koda palaišanas, nevis manuāli instalēt katru bibliotēku.
+
+## Programmatūras izmantošanas metodes
+
