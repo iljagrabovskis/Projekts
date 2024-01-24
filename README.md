@@ -38,7 +38,3 @@ Atšķirība ir tāda, ka informācija no šīm vietnēm tiek ierakstīta teksta
 5) Pēc darba ar pārlūkprogrammu un visas saņemtās informācijas ierakstīšanas teksta failā programma aizver pārlūkprogrammu un pabeidz darbu
 
 Pēc koda atkārtotas palaišanas visa vecā informācija no teksta faila tiek aizstāta ar jaunu un aktuālo informāciju.
-
-## Video ar programmas piemēru
-
-https://youtu.be/BsQW_yVsCUo
